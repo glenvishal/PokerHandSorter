@@ -3,6 +3,8 @@
  */
 package com.icm.start;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -160,10 +162,10 @@ public class PokerContest {
 	 */
 	public static void main(String[] args) {
 		PokerContest contest = new PokerContest();
-		String fileName = "C://icm_workspace//poker-hands.txt";
-
+		//String fileName = "C://icm_workspace//poker-hands.txt";
 		//read file into stream, try-with-resources
-		try (Stream<String> stream = Files.lines(Paths.get(fileName))) {
+		//Paths.get
+		try (Stream<String> stream = Files.lines(Paths.get(args[0]))) {
 
 			stream.forEach(line -> {
 				String player1Data = line.substring(0, 15);
@@ -175,7 +177,7 @@ public class PokerContest {
 
 		} catch (IOException e) {
 			e.printStackTrace();
-		}
+		}	
 		
 		for(int i=0; i < contest.allPlayerList.size();i+=2){
 			contest.getPokerHandSorted(contest.allPlayerList.get(i));
