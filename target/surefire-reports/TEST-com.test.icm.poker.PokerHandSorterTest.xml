@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="28" failures="0" name="com.test.icm.poker.PokerHandSorterTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="28" failures="0" name="com.test.icm.poker.PokerHandSorterTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3825283901163628563.tmp"/>
+    <property name="classworlds.conf" value="C:\icm_workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5355361584072282685.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\;C:\Program Files (x86)\Toshiba\Bluetooth Toshiba Stack\sys\x64\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Vishitha\AppData\Local\Microsoft\WindowsApps;C:\Users\Vishitha\AppData\Local\GitHubDesktop\bin;C:\Users\Vishitha\AppData\Roaming\npm;C:\Users\Vishitha\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -71,7 +71,7 @@
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindStraight" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindTwoPairs" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindStraightWithDifferentValues" time="0"/>
-  <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindFourOfAKindWithSameValue" time="0.001"/>
+  <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindFourOfAKindWithSameValue" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindFourOfAKindWithSameValueDifferntCard" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindHighCard" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindStrighFlushFromSameSuit" time="0"/>
@@ -79,12 +79,12 @@
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindFullHouseWithFirstPairAndThenThreeOfAKind" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindStrighFlushFromDifferentSuit" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindTwoPairsWithDifferentValues" time="0"/>
-  <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindThreeOfAKind" time="0.001"/>
+  <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindThreeOfAKind" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindPair" time="0"/>
-  <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindRoyalFlushWithCardsFromSameSuit" time="0.001"/>
+  <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindRoyalFlushWithCardsFromSameSuit" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindFourOfAKindWithDifferentValue" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindThreeOfAKindWithDifferentValues" time="0"/>
-  <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindFullHouseWithPairAndNoThreeOfAKind" time="0.001"/>
+  <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindFullHouseWithPairAndNoThreeOfAKind" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindFlush" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindFlushWith4SameSuits" time="0"/>
   <testcase classname="com.test.icm.poker.PokerHandSorterTest" name="testFindFullHouseWithThreeOfAKindAndNoPair" time="0"/>
